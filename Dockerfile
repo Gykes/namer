@@ -1,4 +1,4 @@
-FROM ubuntu:jammy as base
+FROM ubuntu:jammy@sha256:f05532b6a1dec5f7a77a8d684af87bc9cd1f2b32eab301c109f8ad151b5565d1 as base
 
 ENV TZ=Europe/London
 ARG DEBIAN_FRONTEND=noninteractive
